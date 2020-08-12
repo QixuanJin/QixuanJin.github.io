@@ -3,10 +3,12 @@ body {
     width: 70%;
 }
 nav ul{
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
 }
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -15,14 +17,16 @@ footer ul {
     font-weight: bold;
 }
 nav ul li{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-    background-color: #333;
+    float: right;
+}
+nav ul li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 nav ul li a:hover{
-    background-color: #111; 
+    background-color: #666;
 }
 footer ul li {
     display: inline;
