@@ -2,24 +2,24 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul{
-    list-style-type: none;
+.topnav{
     margin: 0;
     padding: 0;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
+    overflow: hidden;
 }
-nav ul li{
+.topnav a{
     float: right;
-}
-nav ul li a{
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
+    color: #666;
 }
-nav ul li a:hover{
-    background-color: #666;
+.topnav a:hover{
+    background-color: #ddd;
 }
 h1 {
     font-size: 3em;
