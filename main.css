@@ -6,15 +6,8 @@ nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
-}
-footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
 }
 nav ul li{
     float: right;
@@ -28,16 +21,15 @@ nav ul li a{
 nav ul li a:hover{
     background-color: #666;
 }
+footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
 footer ul li {
     display: inline;
     margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
 }
 h1 {
     font-size: 3em;
