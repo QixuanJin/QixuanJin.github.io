@@ -2,14 +2,13 @@
     /*
     margin: 0;
     padding: 0; */
-    border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
     overflow: hidden;
 }
 .topnav a{
-    float: right;
+    float: left;
     color: #666;
-    display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -22,12 +21,12 @@
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-} */
+}
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
-}
+} */
 /* body {
     margin: 60px auto;
     width: 70%;
